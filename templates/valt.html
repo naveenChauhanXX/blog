@@ -1,0 +1,80 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+
+
+{% block body%}
+
+
+
+<div class="container">
+
+    <br>
+    <h1>welcome {{username}}  </h1><br>
+    <h4>successfully loged in </h4>
+
+  
+    <div class="about">
+
+   
+         
+
+      
+       
+        </a>
+    </div>
+</div>
+
+
+<style>
+
+ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --dark:#2b2d42;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.about{
+
+    height:90cm;
+    width: 18cm;
+    font-family:sans-serif;
+    
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf2f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    color: var(--dark);
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    height:40cm;
+}
+
+
+
+
+</style>
+{% endblock body%}  
